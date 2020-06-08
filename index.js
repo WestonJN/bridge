@@ -14,14 +14,6 @@ fs.readFile(file, 'utf8', function (err, data) {
   console.log('The word "' + finalWordsArray[0].name + '" appears the most in the file ' +
     finalWordsArray[0].total + ' times');
 
-  /*
-    output:
-    [ { name: 'he', total: 10 },
-      { name: 'again', total: 7 },
-      { name: 'away', total: 7 },
-      ... ]
-    The word "he" appears the most in the file 10 times
-  */
 
 });
 
